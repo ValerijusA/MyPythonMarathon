@@ -1,0 +1,16 @@
+pip freeze -> sukelia visus requirements
+
+---------------
+aktyvuoti venv
+venv\Scripts\activate
+
+---------------
+kuriam venv environment
+python -m venv venv2
+
+virtualenv venv3
+
+-----------------
+
+pip install pytest
+pip install pylint
