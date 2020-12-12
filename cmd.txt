@@ -9,7 +9,10 @@ git remote add origin linkas_repo -> sulinkina nuotolini repo lokaliai
 git push origin master -> supushina viska i isore (arba kitaip tariant i repo_linka)
 git branch -> isprintina branchus, zvaigzdute yra working branchas
 git branch naujas_branchas -> sukuria nauja brancha
-git merge  branchas1 branchas2 -> sumergina branchus
 
 git push --set-upstream origin new_branch -> prideda nutolulioj repo brancha
-git checkout master -> pereina i kita brancha iseinant is esamo brancho
+git checkout main --> pasikeičiam į ką norim merginti
+git merge new_branch --> sumergina branchus
+
+git branch -d localBranchName -> delete branch locally
+git push origin --delete remoteBranchName -> delete branch remotely
