@@ -10,3 +10,5 @@ git push origin master -> supushina viska i isore (arba kitaip tariant i repo_li
 git branch -> isprintina branchus, zvaigzdute yra working branchas
 git branch naujas_branchas -> sukuria nauja brancha
 git merge  branchas1 branchas2 -> sumergina branchus
+
+git push --set-upstream origin new_branch ->
